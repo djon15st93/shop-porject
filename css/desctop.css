@@ -1,0 +1,129 @@
+    @media(min-width:980px){
+    body{
+       width: 100%; 
+    }
+    .container-mobile{
+        display: none;
+    }
+.header-mobile{
+    display: none;
+}
+.lang{
+    background-color: #7e7d7d;
+    padding: 3px;
+   }
+       .header-home:hover{
+           width: 150px;
+       margin: 30px;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }
+       .header-reviews:hover{
+           width: 150px;
+       margin: 30px;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }
+       .header-shop:hover{
+           width: 150px;
+       margin: 30px    ;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }   
+   .header-desctop{
+       width: 1500px;
+       display: flex;
+       
+   }
+   .main-menu-desctop{
+       width: 80%;
+       font-size: 26px;
+       background-color: #353a4e;
+       padding: 20px;
+       
+   }
+   .main-menu-desctop a{
+       text-decoration: none;
+       color: white;
+       padding: 20px;
+       margin: 30px;
+   }
+   .main-menu-desctop i{
+       color: white;
+       float: right;
+       width: 15px;
+       }
+   .profile-desctop{
+       font-size: 20px;
+       float: right;
+       margin-right: 10px;
+   }
+   .profile-menu-desctop{
+       width: 20%;
+       float: right;
+       padding: 22px;
+       background-color: #292b37;
+   }
+   .profile-menu-desctop a{
+       text-decoration: none;
+       color: #fff;
+   }
+   body{
+       margin: 0;
+       padding: 0%;
+	background-color: #f3f4f6;
+}
+.header-home{
+    width: 150px;
+    margin: 30px;
+    background-color: #292b37;
+    padding: 20px;
+    box-sizing: border-box;
+     }
+.search{
+	width: 15px;
+	height: 15px;
+}
+.menu-setting-desctop{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.menu-setting-desctop .filter-desctop{
+	display: flex;
+	justify-content: space-around;
+}
+.item-desctop{
+    display: flex;
+}
+.item-desctop>ul>li{
+	display: inline;
+	margin: 30px;
+	list-style-type: none;
+}
+.item-desctop ul li img{
+	width: 250px;
+}
+.button-desctop{
+	background-color: #428bca;
+	border: none;
+	border-radius: 10px;
+	width: 180px;
+	height: 50px;
+	color: white;
+	float: right;
+}
+.filter-desctop a{
+	text-decoration: none;
+	padding: 20px;
+}
+.main-search-desctop{
+	height: 15px;
+	border-radius: 15px;
+	}
+}
+
+}

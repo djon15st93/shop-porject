@@ -1,0 +1,87 @@
+body{
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    background-color: #f3f4f6;
+}
+.header-mobile i{
+    
+    color: white;
+}
+.header-desctop, .container{
+    display: none;
+}
+header label:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+header label{
+display: block;
+width: 30px;
+height: 30px;
+padding: 20px;
+
+}
+ ul{
+    list-style-type: none;
+}
+
+}
+#dws-menu{
+    display: none;
+}
+
+   .header-mobile{
+       padding: auto;
+    background-color: #353a4e;
+       display: flex;
+       
+   }
+   .main-menu-moblie{
+       width: 60%;
+       font-size: 26px;
+       
+       padding: 20px;
+       
+   }
+   .main-menu-mobile a{
+       text-decoration: none;
+       color: white;
+       padding: 20px;
+       margin: 30px;
+   }
+   .main-menu-mobile i{
+       color: white;
+       width: 15px;
+       margin: 20px;
+       }
+   .profile-mobile{
+       font-size: 20px;
+       float: right;
+       margin-right: 10px;
+   }
+   .profile-menu-mobile{
+       margin-left: auto;
+       float: right;
+       padding: 22px;
+     
+   }
+   .profile-menu-mobile a{
+       text-decoration: none;
+       color: #fff;
+   }
+   .viewed-products, .recommendations{
+       display: flex;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    align-items: center;
+    justify-content: center;
+   }
+.viewed-products a, .recommendations a{
+    margin: auto;
+}
+.viewed-products img, .recommendations img{
+    width: 70%;
+    height: 70%;
+}

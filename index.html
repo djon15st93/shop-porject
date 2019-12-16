@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RENT</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/desctop.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/7ea3cb292b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!--Mobile,Middle-->
+        <div class="header-mobile">
+            <div class="main-menu-mobile">
+                <input type="checkbox" id="dws-menu">
+                <div class="leb-menu">
+                    <label for="dws-menu"><img src="img/burger-menu.png" alt=""></label>
+                </div>
+                <nav class="burger-menu-mobile">
+                    <ul>
+                        <li class="profile-mobile"><img src="" alt=""> <a href="">Профиль</a></li>
+                        <li><a href="">Профиль</a></li>
+                        <li><a href="">Отзывы</a></li>
+                        <li><a href="">Баланс</a></li>
+                        <li><a href="">Настройки</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="profile-menu-mobile">
+
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-sliders-h"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+
+            </div>
+        </div>
+
+        <!--desctop-->
+        <div class="header-desctop">
+            <div class="main-menu-desctop">
+                <a class="logo" href="">RENT</a>
+                <img src="" alt="">
+                <a class="header-home" href="index.html">Главная</a>
+                <a class="header-reviews" href="reviews.html">Отзывы</a>
+                <a class="header-shop" href="shop.html">Наши&nbspмагазины</a>
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="profile-menu-desctop">
+                <a class="lang" href="#">RU</a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-sliders-h"></i></a>
+                <a class="profile-desctop" href="">Профиль</a>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Mobile-->
+
+        <div class="container-mobile">
+
+            <section>
+                <h1>Просмотренные товары:</h1>
+                <div class="viewed-products">
+                    <div class="mySlides fade">
+                        <img src="img/item.jpg" alt=""></<img>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/item2.jpg" alt=""></<img>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/item.jpg" alt=""></<img>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/item2.jpg" alt=""></<img>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+
+
+                </div>
+            </section>
+            <section>
+                <h1>Рекомендации:</h1>
+                <div class="recommendations">
+
+                </div>
+
+
+            </section>
+        </div>
+        <!--Desctop-->
+        <div class="container-desctop">
+            <div class="menu-setting-desctop">
+                <div class="filter-desctop">
+                <a href="">Топ</a>
+                <a href="">Фильтр</a>
+                <h3>Кол-во товаров</h3>
+                <i class="fas fa-search"></i>	
+                <input type="text" placeholder="Search">
+                </div>
+                <div class="main-search-desctop"></div>
+                <input class="button-desctop" type="button" value="Поиск">
+            </div>
+            
+            <div class="item-desctop">
+                <ul>
+                    <li><img src="img/item.jpg" alt=""></li>
+                    <li><img src="img/item.jpg" alt=""></li>
+                    <li><img src="img/item.jpg" alt=""></li>
+                    <li><img src="img/item.jpg" alt=""></li>
+                </ul>
+                <ul>
+                        <li><img src="img/item.jpg" alt=""></li>
+                        <li><img src="img/item.jpg" alt=""></li>
+                        <li><img src="img/item.jpg" alt=""></li>
+                        <li><img src="img/item.jpg" alt=""></li>
+                    </ul>
+                    <ul>
+                            <li><img src="img/item.jpg" alt=""></li>
+                            <li><img src="img/item.jpg" alt=""></li>
+                            <li><img src="img/item.jpg" alt=""></li>
+                            <li><img src="img/item.jpg" alt=""></li>
+                        </ul>
+                        <ul>
+                                <li><img src="img/item.jpg" alt=""></li>
+                                <li><img src="img/item.jpg" alt=""></li>
+                                <li><img src="img/item.jpg" alt=""></li>
+                                <li><img src="img/item.jpg" alt=""></li>
+                            </ul>
+            </div>
+    
+    
+    </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>

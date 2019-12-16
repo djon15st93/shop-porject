@@ -1,0 +1,63 @@
+    @media(min-width:980px)
+.lang{
+    background-color: #7e7d7d;
+    padding: 3px;
+   }
+       .header-home:hover{
+           width: 150px;
+       margin: 30px;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }
+       .header-reviews:hover{
+           width: 150px;
+       margin: 30px;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }
+       .header-shop:hover{
+           width: 150px;
+       margin: 30px    ;
+       background-color: #428bca;
+       padding: 20px;
+       box-sizing: border-box;
+       }   
+   .header{
+       display: flex;
+       
+   }
+   .main-menu{
+       width: 80%;
+       font-size: 26px;
+       background-color: #353a4e;
+       padding: 20px;
+       
+   }
+   .main-menu a{
+       text-decoration: none;
+       color: white;
+       padding: 20px;
+       margin: 30px;
+   }
+   .main-menu i{
+       color: white;
+       float: right;
+       width: 15px;
+       }
+   .profile{
+       font-size: 20px;
+       float: right;
+       margin-right: 10px;
+   }
+   .profile-menu{
+       width: 20%;
+       float: right;
+       padding: 22px;
+       background-color: #292b37;
+   }
+   .profile-menu a{
+       text-decoration: none;
+       color: #fff;
+   }
